@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bootstrap4 Landing Page</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="../img/3_leaf-05_generated.jpg " style="width: 20%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row d-flex h-100">
+            <div class="col-sm-6 text-center justify-content-center align-self-center">
+              <h1>
+                cuida al medio ambiente
+              </h1>
+              <p> ¿como podemos ayudarte? </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                Read More
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <img src="../img/Pajaro Colibri.jpg" class="img-fluid d-none d-sm-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NEWSLETTER  -->
+    <section id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input type="text" class="form-control form-control-lg" placeholder="Introdusca su Nombre">
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control form-control-lg" placeholder="Introdusca su Email">
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-primary btn-lg btn-block">
+              Suscribete
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Elefantes Nadadores</h3>
+                <p>
+                  A pesar de su enorme peso (generalmente alrededor de 3,5 toneladas), los elefantes son excelentes nadadores. Utilizan un atractivo “estilo perrito” para moverse en el agua. ¡Imagina ver a un elefante nadando en un río o lago!
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>La Jirafa, la Más Alta</h3>
+                <p>
+                  La jirafa es la especie más alta de todas. Además de su cuello largo, tiene un sistema digestivo sorprendente que no se compara con el de ningún otro rumiante. ¡Es todo un ejemplo de adaptación al entorno!
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Leones Detectables por Sexo</h3>
+                <p>
+                  Los leones son los únicos felinos en los que puedes determinar el sexo a simple vista. Observando su melena, puedes saber si es un macho o una hembra. Además, en el pasado, los leones eran el mamífero terrestre más extendido en todo el mundo después de los seres humanos.
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>Visión Nocturna de los Tigres</h3>
+                <p>
+                  Los tigres tienen una visión nocturna increíblemente eficaz. Su vista es hasta seis veces más potente que la de los seres humanos durante la noche. Imagina lo útil que debe ser para ellos en la oscuridad de la jungla.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="m5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>De que trata nuestra suscripcion?</h3>
+            <p>
+              Las suscripciones ambientales se centran en productos y servicios que minimizan su huella ecológica. Desde productos de limpieza hasta alimentos orgánicos entregados directamente en tu puerta, estas suscripciones buscan reducir el desperdicio y promover prácticas más sostenibles.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCORDION -->
+    <section class="container text-center p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  María, amante de la naturaleza y la sostenibilidad
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Me uní a una suscripción de productos ecológicos hace seis meses, y no puedo estar más satisfecha. Cada mes, recibo una caja con productos como detergentes biodegradables, cepillos de dientes de bambú y bolsas reutilizables. Además de reducir mi huella de carbono, me encanta descubrir nuevas marcas comprometidas con el planeta. ¡Es una forma práctica y emocionante de cuidar el medio ambiente!”
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Carlos, el minimalista consciente
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Como minimalista, siempre busco simplificar mi vida y reducir el desperdicio. Mi suscripción favorita es la de productos de limpieza a granel. Me envían concentrados en botellas de vidrio, y solo tengo que mezclarlos con agua en casa. No solo ahorro espacio y envases, sino que también contribuyo a la sostenibilidad. ¡Recomiendo esta suscripción a todos los minimalistas y amantes del medio ambiente!
+                
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Ana, la mamá ocupada
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Con tres hijos y una vida agitada, encontrar tiempo para ser ecoamigable puede ser complicado. Por eso, me suscribí a un servicio de pañales ecológicos. Cada mes, llegan pañales suaves y biodegradables a mi puerta. No solo es conveniente, sino que también me hace sentir bien saber que estoy reduciendo la cantidad de pañales desechables en vertederos. ¡Una suscripción que realmente marca la diferencia!
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="text-center team">
+      <div class="container p-5">
+        <h1 class="text-center text-white">Equipo</h1>
+        <p class="text-white">
+          Adipisicing unde eum odio aliquam dolor ad voluptas expedita consequuntur aperiam inventore eaque. Dolorum facilis aut eum a delectus. Fugit velit quas harum quisquam amet provident inventore. Repudiandae repudiandae delectus.
+        </p>
+        <div class="row">
+          <!-- USER TEAM -->
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="../img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>nicolas montiel</h3>
+                <p>
+                  Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="../img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>John Carter</h3>
+                <p>
+                  Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="../img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>juan aguirre</h3>
+                <p>
+                  Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="../img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>camilo rios</h3>
+                <p>
+                  Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contacto</h3>
+            <p>
+              ¿hablemos?
+            </p>
+            <form action="">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-user input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-envelope input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-pencil-alt input-group-text"></i>
+                </div>
+                <textarea name="" cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">enviar</button>
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-white">
+          <div class="col ml-auto">
+            <p>Copyright &copy; 2025</p>
+          </div>
+        </div>
+      </div>       
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
