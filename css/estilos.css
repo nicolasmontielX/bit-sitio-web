@@ -11,7 +11,7 @@
     position: relative;
     background-image: url(../img/bosque.jpg);
     background-size: cover;
-    min-height 700px;
+    min-height 700px ;
   }
   
   .background-overlay {
@@ -26,7 +26,49 @@
     border-radius: 0;
   }
   
-  .team, footer {
+  .team footer {
     background: #30336b;
   }
+
+.container {
+  display: grid;
+  gap: 20px;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card.highlight {
+  background-color: #007aff;
+  color: white;
+}
+.car-body {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+
+img.avatar {
+    width: 100px;
+}
+p.text-white {
+  margin-top: -89px;
+}
+
+
+
   
